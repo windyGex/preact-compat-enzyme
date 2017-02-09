@@ -1,0 +1,45 @@
+{
+  "name": "preact-compat-enzyme",
+  "version": "0.1.9",
+  "description": "enzyme的兼容层",
+  "main": "lib/index",
+  "files": [
+    "lib",
+    "src",
+    "docs",
+    "theme",
+    "README.md",
+    "HISTORY.md"
+  ],
+  "keywords": [
+    "next",
+    "preact-compat-enzyme"
+  ],
+  "author": {
+    "name": "xing.gex",
+    "email": "xing.gex@alibaba-inc.com"
+  },
+  "scripts": {
+    "dev": "next-bin server",
+    "build-file": "next-bin build",
+    "build-global": "node ./scripts/global.js",
+    "build": "npm-run-all build-file build-global",
+    "push": "node ./scripts/publish.js",
+    "publish": "npm-run-all build push",
+    "prepublish": "npm-run-all build",
+    "test": "next-bin test",
+    "lint": "eslint '@(src|docs)/**/*.@(js|jsx|md)' || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:next/preact-compat-enzyme.git"
+  },
+  "dependencies": {
+    "preact": "^7.1.0",
+    "preact-compat": "^3.11.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.0.1"
+  }
+}

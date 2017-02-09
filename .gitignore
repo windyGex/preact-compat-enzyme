@@ -1,0 +1,9 @@
+node_modules/
+tmp/
+temp/
+lib/
+.idea/
+*.log
+*.iml
+.DS_Store
+test/coverage/
