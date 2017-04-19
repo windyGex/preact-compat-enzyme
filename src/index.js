@@ -658,7 +658,9 @@ PureComponent.prototype.shouldComponentUpdate = function(props, state) {
 	return shallowDiffers(this.props, props) || shallowDiffers(this.state, state);
 };
 
-
+function batchedUpdates(callback) {
+ 	callback && callback();
+}
 
 export {
 	version,
@@ -675,7 +677,8 @@ export {
 	unmountComponentAtNode,
 	Component,
 	PureComponent,
-	renderSubtreeIntoContainer as unstable_renderSubtreeIntoContainer
+	renderSubtreeIntoContainer as unstable_renderSubtreeIntoContainer,
+	batchedUpdates as unstable_batchedUpdates
 };
 
 export default {
@@ -693,5 +696,6 @@ export default {
 	unmountComponentAtNode,
 	Component,
 	PureComponent,
-	unstable_renderSubtreeIntoContainer: renderSubtreeIntoContainer
+	unstable_renderSubtreeIntoContainer: renderSubtreeIntoContainer,
+	unstable_batchedUpdates: batchedUpdates
 };
