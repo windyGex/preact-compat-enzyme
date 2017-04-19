@@ -1,6 +1,6 @@
 {
   "name": "preact-compat-enzyme",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "enzyme的兼容层",
   "main": "lib/index",
   "files": [
@@ -36,11 +36,7 @@
   },
   "dependencies": {
     "preact": "8.x",
-    "immutability-helper": "^2.1.2",
-    "preact-render-to-string": "^3.6.0",
-    "preact-transition-group": "^1.1.0",
-    "prop-types": "^15.5.8",
-    "standalone-react-addons-pure-render-mixin": "^0.1.1"
+    "preact-compat": "3.x"
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
