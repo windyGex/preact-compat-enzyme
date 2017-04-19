@@ -1,6 +1,6 @@
 {
   "name": "preact-compat-enzyme",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "enzyme的兼容层",
   "main": "lib/index",
   "files": [
@@ -25,7 +25,7 @@
     "build-global": "node ./scripts/global.js",
     "build": "npm-run-all build-file build-global",
     "push": "node ./scripts/publish.js",
-    "publish": "npm-run-all build push",
+    "publish": "npm-run-all build",
     "prepublish": "npm-run-all build",
     "test": "next-bin test",
     "lint": "eslint '@(src|docs)/**/*.@(js|jsx|md)' || true"
@@ -35,8 +35,12 @@
     "url": "git@gitlab.alibaba-inc.com:next/preact-compat-enzyme.git"
   },
   "dependencies": {
-    "preact": "^7.1.0",
-    "preact-compat": "^3.11.0"
+    "preact": "8.x",
+    "immutability-helper": "^2.1.2",
+    "preact-render-to-string": "^3.6.0",
+    "preact-transition-group": "^1.1.0",
+    "prop-types": "^15.5.8",
+    "standalone-react-addons-pure-render-mixin": "^0.1.1"
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
