@@ -1,6 +1,6 @@
 {
   "name": "preact-compat-enzyme",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "enzyme的兼容层",
   "main": "lib/index",
   "files": [
