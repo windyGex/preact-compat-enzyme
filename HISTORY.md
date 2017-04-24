@@ -1,6 +1,10 @@
 # Changelog 
 
 
+## 0.2.5 / 2017-04-24 
+
+  * [[a074a02](https://github.com/windyGex/preact-compat-enzyme.githttps://github.com/windyGex/preact-compat-enzyme/commit/a074a02c3195ca49b2f958c236cbd8ef43f1584d)] - `fix` attr key. 
+
 ## 0.2.4 / 2017-04-21 
 
   * [[0629cca](https://github.com/windyGex/preact-compat-enzyme.githttps://github.com/windyGex/preact-compat-enzyme/commit/0629cca4816f637cabf23e0d2acdf9c0b0871436)] - `fix` Add __reactInternalInstance for domNode. 

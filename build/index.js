@@ -9,7 +9,7 @@ var _preactCompat2 = _interopRequireDefault(_preactCompat);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var ATTR_KEY = typeof Symbol === 'function' ? Symbol['for']('preactattr') : '__preactattr_';
+var ATTR_KEY = '__preactattr_';
 var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol['for']('react.element') || 0xeac7;
 var Component = _preactCompat2['default'].Component;
 
