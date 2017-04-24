@@ -1,5 +1,5 @@
 import preact from 'preact-compat';
-const ATTR_KEY = typeof Symbol ==='function' ? Symbol.for('preactattr') : '__preactattr_';
+const ATTR_KEY = '__preactattr_';
 const REACT_ELEMENT_TYPE = (typeof Symbol === 'function' && Symbol.for && Symbol.for('react.element')) || 0xeac7;
 const Component = preact.Component;
 
