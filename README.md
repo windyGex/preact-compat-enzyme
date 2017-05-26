@@ -16,6 +16,10 @@ webpack.resolve.alias = {
     }
 ```
 
+## Example Project
+
+[Here](https://github.com/windyGex/preact-test-example) is an example project for enzyme test.
+
 ## Demo
 
 ```js
