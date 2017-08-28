@@ -4,7 +4,7 @@ Implement react internal property for enzyme test. Now it support `mount` mode.
 
 ## Usage 
 
-If you using webpack and kamra for testing, Only add alias for `react`, `react-dom` and `react-addons-test-utils`
+If you using webpack and karma for testing, Only add alias for `react`, `react-dom` and `react-addons-test-utils`
 
 ```js
 webpack.resolve.alias = {
