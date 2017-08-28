@@ -11,6 +11,7 @@
     "README.md",
     "HISTORY.md"
   ],
+  "license": "MIT",
   "keywords": [
     "next",
     "preact-compat-enzyme"
